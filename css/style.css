@@ -1,0 +1,90 @@
+* {
+    border: 0%
+}
+header {
+    background-color: #353a40;
+    margin-bottom: -0.5rem;
+
+}
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    padding: 0rem 0rem 0.5rem 0rem;
+}
+.logoCaC {
+    width: 8rem;
+}
+.navbar-nav .nav-link {
+    color:#969b9f;
+}
+.navbar-nav .nav-link.active {
+    color: #FFFFFF !important
+}
+.navbar-nav .nav-link:focus {
+    color: white !important;
+}
+.navbar-nav .nav-link:last-child {
+    color: green; /* Establece el color verde para la última palabra */
+}
+.btn-custom {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+#carousel {
+    margin-top: -250px;
+    position: relative;
+}
+.carousel-item img {
+    filter: brightness(50%);
+}
+#carouselTxt {
+    width: 40%;
+    margin: 10px auto;
+    position: absolute;
+    left: 55%;
+    top:50%
+}
+h3 {
+    text-align: right;
+}
+.card-text1 {
+    max-width: 100%;
+    text-align: right;
+}
+.botonesCarousel {
+    text-align: right;
+}
+h1 {
+    font-size: 1.5rem !important;
+    color: aliceblue;
+    padding-top: 1rem;
+}
+h6 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+h2 {
+    text-align: center;
+}
+#SteveJobs1 {
+    background-color: gold;
+    color: black;
+    border: none;
+  }
+  
+  #SteveJobs2 {
+    background-color: #51b9ca;
+    color: aliceblue;
+    border: none;
+    }
+
+footer {
+    background: linear-gradient(to right, #1d3744, #1d5271);
+}

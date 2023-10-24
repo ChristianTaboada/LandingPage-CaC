@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="./assets/codoacodo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Conf Bs As</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+ </head>
+ <body>
+    <header class="sticky-top">
+        <div class="encabezado">
+            <div class="logo">
+                <img src="./assets/codoacodo.png" class="logoCaC" alt="logo codo a codo"/>
+                <h1 class="text-white">Conf Bs As</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                      <a class="nav-link" href="#">Los oradores</a>
+                      <a class="nav-link" href="#">El lugar y la fecha</a>
+                      <a class="nav-link" href="#">Conviértete en orador</a>
+                      <a class="nav-link" href="#">Comprar tickets</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <section id="carousel" class="mb-3">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/ba1.jpg" class="d-block w-100" alt="Palacio">
+                <div id="carouselTxt" class="carousel-caption d-none d-md-block">
+                    <h3>Conf Bs As</h3>
+                    <p class="card-text1">Bs As llega por primera vez a Argentina. Un evento para compartir con<br>
+                        nuestra comunidad el conocomiento y experiencia de los expertos que<br>
+                        están creando  el futuro de Internet. Ven a conocer a miembros del<br>
+                        evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel 
+                        que tenemos para tí. Te esperamos! </p>
+                    <div class="botonesCarousel" >
+                        <button id="QuieroSerOrador" type="button" class="btn btn-outline-light btn-sm">Quiero ser orador</button>
+                        <button id="comprarTickets" type="button" class="btn btn-success btn-sm">Comprar tickets</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="20000">
+                <img src="./assets/ba2.jpg" class="d-block w-100" alt="...">
+                <div id="carouselTxt" class="carousel-caption d-none d-md-block">
+                    <h3>Conf Bs As</h5>
+                    <p class="card-text1">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra 
+                        comunidad el conocomiento y experiencia de los expertos que están creando  el futuro de Internet. 
+                        Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel 
+                        que tenemos para tí. Te esperamos! </p>
+                    <div class="botonesCarousel" >
+                        <button id="QuieroSerOrador" type="button" class="btn btn-outline-light btn-sm">Quiero ser orador</button>
+                        <button id="comprarTickets" type="button" class="btn btn-success btn-sm">Comprar tickets</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="30000">
+                <img src="./assets/ba3.jpg" class="d-block w-100" alt="...">
+                <div id="carouselTxt" class="carousel-caption d-none d-md-block">
+                    <h3>Conf Bs As</h5>
+                    <p class="card-text1">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra 
+                        comunidad el conocomiento y experiencia de los expertos que están creando  el futuro de Internet. 
+                        Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel 
+                        que tenemos para tí. Te esperamos! </p>
+                    <div class="botonesCarousel" >
+                        <button id="QuieroSerOrador" type="button" class="btn btn-outline-light btn-sm">Quiero ser orador</button>
+                        <button id="comprarTickets" type="button" class="btn btn-success btn-sm">Comprar tickets</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section id="oradores">
+        <div>
+            <h6>CONOCE A LOS</h6>
+            <h2>ORADORES</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+            <div class="col" style="width: 20rem;">
+              <div class="card h-100 mx-auto" style="width: 18rem; margin: 0; padding: 0;">
+                <img src="./assets/steve.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <button id="SteveJobs1" type="button" class="btn btn-primary btn-sm">JavaScript</button>
+                  <button id="SteveJobs2" type="button" class="btn btn-secondary btn-sm">React</button>
+                  <h5 class="card-title mt-1">Steve Jobs</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" style="width: 20rem;">
+              <div class="card h-100 mx-auto" style="width: 18rem; margin: 0; padding: 0;">
+                <img src="./assets/bill.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" style="width: 20rem;">
+              <div class="card h-100 mx-auto" style="width: 18rem; margin: 0; padding: 0;">
+                <img src="./assets/ada.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+    </section>
+    <section id="lugar">
+        <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="./assets/honolulu.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section id="form">
+        <div>
+            <h6>CONVIERTETE EN UN</h6>
+            <h2>ORADOR</h2>
+            <p>
+             Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de
+             qué quieres hablar!
+            </p>
+        </div>
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="form-floating">
+                <textarea
+                class="form-control"
+                placeholder="Sobre que quieres hablar?"
+                id="textarea"
+                >
+                </textarea>
+                <p class="text-secondary">
+                    Recuerda incluir un título para tu charla  
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="#">Preguntas frecuentes</a>
+                      <a class="nav-link" href="#">Contáctanos</a>
+                      <a class="nav-link" href="#">Prensa</a>
+                      <a class="nav-link" href="#">Conferencias</a>
+                      <a class="nav-link" href="#">Términos y condiciones</a>
+                      <a class="nav-link" href="#">Privacidad</a>
+                      <a class="nav-link" href="#">Estudiantes</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ </body>
+
+</html>
