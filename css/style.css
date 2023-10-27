@@ -1,5 +1,5 @@
 * {
-    border: 0%
+    border: 0%;
 }
 header {
     background-color: #353a40;
@@ -79,12 +79,45 @@ h2 {
     border: none;
   }
   
-  #SteveJobs2 {
+#SteveJobs2 {
     background-color: #51b9ca;
     color: aliceblue;
     border: none;
-    }
+}
+#BillGates1 {
+    background-color: gold;
+    color: black;
+    border: none;
+}
+  
+#BillGates2 {
+    background-color: rgb(47, 199, 146);
+    color: aliceblue;
+    border: none;
+}
+#AdaLovelace1 {
+    background-color: rgb(72, 72, 70);
+    color: aliceblue;
+    border: none;
+}
+    
+#AdaLovelace2 {
+    background-color: rgb(183, 46, 114);
+    color: aliceblue;
+    border: none;
+}
+.botonesCarousel2 {
+    text-align: left;
+    margin-left: 1rem;
+}
+.center-p {
+    text-align: center;
+}
 
 footer {
     background: linear-gradient(to right, #1d3744, #1d5271);
+    height: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
