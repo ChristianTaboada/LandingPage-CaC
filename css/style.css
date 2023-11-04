@@ -121,3 +121,10 @@ footer {
     text-align: center;
     justify-content: center;
 }
+
+.custom-bg {
+    background-color:  #89bae3;
+}
+.total {
+    margin-left: 1rem;
+}
